@@ -1,0 +1,6 @@
+module.exports = {
+    // ...existing code...
+    testEnvironment: "jest-environment-jsdom",
+    setupFilesAfterEnv: ["<rootDir>/jest.setup.js"],
+    // ...existing code...
+};
